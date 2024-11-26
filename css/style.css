@@ -33,14 +33,14 @@ section {
 
 @font-face {
     font-family: 'Graphik LCG';
-    src: url('/fonts/GraphikLCG-Regular.woff2') format('woff2');
+    src: url('../fonts/GraphikLCG-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik LCG';
-    src: url('/fonts/GraphikLCG-Semibold.woff2') format('woff2');
+    src: url('../fonts/GraphikLCG-Semibold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
 }
@@ -160,7 +160,7 @@ a {
 }
 
 .hero__background {
-    background-image: url('/img/Lunch_atop_a_Skyscraper\ 1.jpg');
+    background-image: url('../img/Lunch_atop_a_Skyscraper\ 1.jpg');
     background-color: var(--color-blue);
     background-blend-mode: multiply;
     background-size: cover;
