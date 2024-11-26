@@ -1,0 +1,131 @@
+@media (max-width:1550px) {
+    .swiper-button-prev {
+        display: none;
+    }
+    .swiper-button-next {
+        display: none;
+    }
+}
+
+
+@media (max-width:770px) {
+
+    .work__top-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .work__top-item {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+    }
+
+    .faq__question-text {
+        width: 90%;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .statistics__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .hero__nav {
+        display: none;
+        justify-content: start;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color: #FFFFFF;
+        animation: burgerAnimation 0.4s;
+    }
+
+    .hero__list {
+        flex-direction: column;
+        color: #83898F;
+        gap: 0;
+    }
+
+    .hero__nav-item {
+        padding: 20px 0;
+        border-bottom: 1px solid #ECEFF2 ;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:570px) {
+    .hero__header {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .hero__text {
+        text-align: center;
+    }
+
+    .work__top-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work__bottom {
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+    }
+
+    .work__bottom-left-header{
+        margin-bottom: 5%;
+    }
+
+    .work__bottom-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    .image{
+        position: absolute;
+    }
+
+    .work__bottom-right {
+        width: 100%;
+        bottom: 100;
+        left: 0;
+        height: 300px;
+        position: relative;
+    }
+
+    .image-1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .image-2 {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .form__element {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
