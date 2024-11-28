@@ -8,29 +8,29 @@ document.querySelector('.burger').addEventListener('click', function() {
 
 
 const swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1, 
-    spaceBetween: 20, 
-    loop: false, 
+    slidesPerView: 1,
+    spaceBetween: 30, // Устанавливаем значение по умолчанию
+    loop: false,
     pagination: {
         el: '.swiper-pagination',
-        clickable: true, 
+        clickable: true,
     },
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-  
         375: {
-            slidesPerView: 1, 
+            slidesPerView: 1,
+            spaceBetween: 20, // Для экранов до 375px
         },
-
         768: {
-            slidesPerView: 2, 
+            slidesPerView: 2,
+            spaceBetween: 10, // Для экранов от 768px до 1200px
         },
-
-        1100: {
-            slidesPerView: 3, 
+        1220: {
+            slidesPerView: 3,
+            spaceBetween: 20, // Устанавливаем 30 для экранов от 1200px
         },
     },
 });
